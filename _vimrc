@@ -4,7 +4,7 @@ Plug 'https://github.com/lervag/vimtex.git'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'artanikin/vim-synthwave84'
-
+Plug 'https://github.com/tpope/vim-fugitive.git'
 call plug#end()
 
 colorscheme synthwave84 
