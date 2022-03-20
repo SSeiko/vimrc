@@ -5,9 +5,13 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'artanikin/vim-synthwave84'
 Plug 'https://github.com/tpope/vim-fugitive.git'
-call plug#end()
+Plug 'https://github.com/altercation/vim-colors-solarized.git'
 
-colorscheme synthwave84 
+call plug#end()
+set background=dark
+colorscheme solarized 
+"synthwave84 
+
 
 " Vim with all enhancements
 source $VIMRUNTIME/vimrc_example.vim
